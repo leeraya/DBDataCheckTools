@@ -20,3 +20,4 @@ for i in range(0, len(tbl)):
     tidb_rows = cursor.fetchall()
     for row in tidb_rows:
         print(db_name+"."+tbl_name, row['data_cap'], row['index_cap'])
+    connection.close()
