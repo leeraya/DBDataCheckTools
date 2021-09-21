@@ -9,18 +9,17 @@ some simple python scripts to check tidb and oracle
 https://www.oracle.com/database/technologies/instant-client/downloads.html
 
 ## tidb_VS_oracle
-### check differences between oracle and tidb.
-### such as table count、column count、column name.
+ check differences between oracle and tidb. such as table count、column count、column name.
 
 
 ## splitTable
-### split table before insert into table and check if succeed
+split table before insert into table and check if succeed
 
 ## dbconnection
-### base tool to connect to tidb
+base tool to connect to tidb
 
 ## truncateTables
-### batch truncate table 
+batch truncate table 
 
 ## capacity
-### get every table's data capacity and indx capacity
+ get every table's data capacity and indx capacity
